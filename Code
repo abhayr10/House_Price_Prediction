@@ -14,7 +14,7 @@ default.drop('id', axis=1, inplace=True)
 sns.boxplot(x='waterfront', y='price', data=default)
 sns.regplot(x='sqft_above', y='price', data=default)
 
-# Compute correlation matrix
+# Compute correlation matrix.
 
 corr = default.corr()
 
